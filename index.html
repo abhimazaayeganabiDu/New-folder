@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You!</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #6e8efb, #a777e3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+      overflow: hidden;
+    }
+
+    .card {
+      background: #fff;
+      padding: 50px 40px;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      animation: fadeIn 1s ease;
+      max-width: 400px;
+      width: 90%;
+    }
+
+    .icon {
+      font-size: 70px;
+      margin-bottom: 20px;
+      animation: pop 0.8s ease;
+    }
+
+    h1 {
+      font-size: 2em;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #4a4a4a;
+    }
+
+    p {
+      font-size: 1em;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #6e8efb;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #5a7dfd;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0); }
+      80% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.85em;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">🎉</div>
+    <h1>Thank You!</h1>
+    <p>Your form has been submitted successfully.</p>
+    <a href="/" class="btn">Go Back Home</a>
+  </div>
+
+  <footer>© 2025 Your Company</footer>
+
+  <script>
+    // Optional small animation or redirect timer
+    // Uncomment below if you want automatic redirect after 5 seconds
+    setTimeout(() => {
+      window.location.href = "/";
+    }, 5000);
+  </script>
+</body>
+</html>
