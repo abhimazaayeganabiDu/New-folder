@@ -18,8 +18,8 @@ Dog Vision is a web application that uses deep learning to identify dog breeds f
 ![Screenshot 2](https://github.com/RushikeshKothawade07/Dog_Vision/blob/main/screenshots/2.png)
 *Caption: Uploading an image and obtaining breed prediction*
 
-![Screenshot 3](https://github.com/RushikeshKothawade07/Dog_Vision/blob/main/screenshots/3.png)
-*Caption: Displaying the predicted breed with confidence score and google search integration*
+<!-- ![Screenshot 3](https://github.com/RushikeshKothawade07/Dog_Vision/blob/main/screenshots/3.png)
+*Caption: Displaying the predicted breed with confidence score and google search integration* -->
 
 ## Usage
 
